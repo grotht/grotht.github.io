@@ -9,7 +9,7 @@ const isEvening = hours >= 17 || hours < 4 // is it evening?
 if (isMorning) {
     document.querySelector('#welcome h2').textContent = 'Good Morning!'
 } else if (isAfternoon) {
-    document.querySelector('#welcome h2').textContent = 'Good Afernoon!'
+    document.querySelector('#welcome h2').textContent = 'Good Afternoon!'
 } else if (isEvening) {
     document.querySelector('#welcome h2').textContent = 'Good Evening!'
 }
