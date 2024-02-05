@@ -22,6 +22,12 @@ body {
     text-align: center;
 }
 
+#welcome {
+    padding-top: 10px;
+    padding-left: 5%;
+    font-size: large;
+}
+
 section {
     padding-bottom: 20px;
 }
