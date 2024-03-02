@@ -13,3 +13,5 @@ if (isMorning) {
 } else if (isEvening) {
     document.querySelector('#welcome h2').textContent = 'Good Evening!'
 }
+
+localStorage.setItem("It's a secret to everybody.", "It's dangerous to go alone! Take this.")
